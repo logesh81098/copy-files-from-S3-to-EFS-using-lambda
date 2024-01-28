@@ -1,0 +1,3 @@
+variable "iam-role" {
+  default = {}
+}

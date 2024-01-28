@@ -22,3 +22,8 @@ module "security-group" {
 module "iam-role" {
   source = "./module/iam-role"
 }
+
+module "lambda" {
+  source = "./module/lambda"
+  iam-role = module.iam-role.role-arn
+}
