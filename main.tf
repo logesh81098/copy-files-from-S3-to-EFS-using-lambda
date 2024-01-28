@@ -18,3 +18,7 @@ module "security-group" {
   source = "./module/security-groups"
   vpc-id = module.vpc.vpc-id
 }
+
+module "iam-role" {
+  source = "./module/iam-role"
+}
