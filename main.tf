@@ -27,7 +27,5 @@ module "iam-role" {
 module "lambda" {
   source = "./module/lambda"
   iam-role = module.iam-role.role-arn
-  s3-bucket = module.s3.bucket
   bucket-arn = module.s3.bucket-arn
-  
 }
