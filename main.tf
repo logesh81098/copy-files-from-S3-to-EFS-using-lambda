@@ -4,6 +4,7 @@ module "vpc" {
 
 module "s3" {
   source = "./module/s3"
+  lambda-arn = module.lambda.lambda-arn
 }
 
 module "efs" {
@@ -26,4 +27,7 @@ module "iam-role" {
 module "lambda" {
   source = "./module/lambda"
   iam-role = module.iam-role.role-arn
+  s3-bucket = module.s3.bucket
+  bucket-arn = module.s3.bucket-arn
+  
 }
