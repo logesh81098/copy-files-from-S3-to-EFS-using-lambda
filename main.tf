@@ -34,3 +34,9 @@ module "lambda" {
   public-subnet-3-id = module.vpc.public-subnet-3-id
   efs-sg = module.security-group.efs-sg-id
 }
+
+module "ec2" {
+  source = "./module/ec2"
+  public-subnet-3-id = module.vpc.public-subnet-3-id
+  ec2-sg = module.security-group.ec-sg-id
+}
