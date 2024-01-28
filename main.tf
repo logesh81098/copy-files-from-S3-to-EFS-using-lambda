@@ -28,4 +28,9 @@ module "lambda" {
   source = "./module/lambda"
   iam-role = module.iam-role.role-arn
   bucket-arn = module.s3.bucket-arn
+  access-point-arn = module.efs.access-point-arn
+  public-subnet-1-id = module.vpc.public-subnet-1-id
+  public-subnet-2-id = module.vpc.public-subnet-2-id
+  public-subnet-3-id = module.vpc.public-subnet-3-id
+  efs-sg = module.security-group.efs-sg-id
 }
