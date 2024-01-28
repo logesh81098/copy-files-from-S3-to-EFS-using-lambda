@@ -81,7 +81,15 @@ resource "aws_internet_gateway" "internet-gateway" {
   }
 }
 
+#############################################################################################################
+#                                Creating VPC Endpoint
+#############################################################################################################
+resource "aws_vpc_endpoint" "project-vpc-endpoint" {
+  vpc_id = aws_vpc.project-vpc.id
+  route_table_ids = [aws_route_table.public-route-table.id]
+  service_name = "com.amazonaws.ap-south-1.s3"
+}
 
 #############################################################################################################
-#Total resource count: 9
+#Total resource count: 10
 #############################################################################################################
