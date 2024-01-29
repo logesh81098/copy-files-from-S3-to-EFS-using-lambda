@@ -50,7 +50,8 @@ Execute Terraform apply to build this infrasturcute
 
 **Output**
 
-<img width="757" alt="image" src="https://github.com/logesh81098/copy-files-from-S3-to-EFS-using-lambda/assets/83343125/812bc26d-e8a0-4ba8-bc36-d7919dde9f89">
+<img width="764" alt="image" src="https://github.com/logesh81098/copy-files-from-S3-to-EFS-using-lambda/assets/83343125/0609ac9d-30d7-4c8f-acd6-3683d001db72">
+
 
 &nbsp; &nbsp; **Content of the first object: Alexa play : Kanmani anbodu kadhalan naan eluthum kadithamae**
 
