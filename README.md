@@ -39,6 +39,7 @@ Clone this repository to your local machine using
 **gitclone https://github.com/logesh81098/copy-files-from-S3-to-EFS-using-lambda.git**
 
 Execute Terraform plan to check about infrastructure 
+
 **terraform plan**
 
 Execute Terraform apply to build this infrasturcute 
