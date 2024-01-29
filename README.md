@@ -15,7 +15,6 @@ We are reviewing this copy mechanism using CloudWatch Log group and EC2 instance
 <img width="522" alt="image" src="https://github.com/logesh81098/copy-files-from-S3-to-EFS-using-lambda/assets/83343125/45f5df84-0be5-49f7-9dda-00adb2617cbd">
 
 
-
 **📃 list of services**
 
 1.AWS VPC (Networking Block)
@@ -47,6 +46,15 @@ Execute Terraform apply to build this infrasturcute
 **terraform apply**
 
 ✨Finally,type yes for prompt 
+
+
+**Output**
+
+<img width="757" alt="image" src="https://github.com/logesh81098/copy-files-from-S3-to-EFS-using-lambda/assets/83343125/812bc26d-e8a0-4ba8-bc36-d7919dde9f89">
+
+**Content of the first object: Alexa play : Kanmani anbodu kadhalan naan eluthum kadithamae**
+
+**List, download, store in /tmp, and copy to EFS completed**
 
 Thank you so much for reading..😅 
 
