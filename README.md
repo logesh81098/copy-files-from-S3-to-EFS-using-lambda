@@ -1,6 +1,6 @@
 **Copy files from S3 to EFS using Lambda function**
 
-&nbsp; ✨In this repository we are going to implement one of the scenario based question to dynamically copy files from S3 to EFS filesystem using AWS Lambda Function 
+&nbsp; &nbsp; ✨In this repository we are going to implement one of the scenario based question to dynamically copy files from S3 to EFS filesystem using AWS Lambda Function 
 
 **Detail about this project:**
 
