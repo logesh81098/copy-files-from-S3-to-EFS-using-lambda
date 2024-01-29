@@ -17,19 +17,19 @@ We are reviewing this copy mechanism using CloudWatch Log group and EC2 instance
 
 **📃 list of services**
 
-1.AWS VPC (Networking Block)
+*1.AWS VPC (Networking Block)
 
-2.AWS S3 (Source)
+*2.AWS S3 (Source)
 
-3.AWS EFS (Destination)
+*3.AWS EFS (Destination)
 
-4.AWS Lambda Function (Computing service to copy files between S3 and Lambda)
+*4.AWS Lambda Function (Computing service to copy files between S3 and Lambda)
 
-5.AWS Security group (Connecting component between EFS & Lambda and EFS and EC2 instance)
+*5.AWS Security group (Connecting component between EFS & Lambda and EFS and EC2 instance)
 
-6.AWS IAM Role (Controlling access permission between resources)
+*6.AWS IAM Role (Controlling access permission between resources)
 
-7.AWS EC2 instance (Computing service used to review copy process)
+*7.AWS EC2 instance (Computing service used to review copy process)
 
 **✈️ Now we are ready to deploy our application on cloud ⛅**
 
