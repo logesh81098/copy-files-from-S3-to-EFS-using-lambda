@@ -10,7 +10,7 @@ We are reviewing this copy mechanism using CloudWatch Log group and EC2 instance
 
 
 
-****🏠** Architecture******
+**🏠 Architecture**
 
 <img width="522" alt="image" src="https://github.com/logesh81098/copy-files-from-S3-to-EFS-using-lambda/assets/83343125/45f5df84-0be5-49f7-9dda-00adb2617cbd">
 
